@@ -25,7 +25,7 @@ def calc(expr):
             op = ops[i]
             x = new_arr.append(op(b,a))
     #final = ''.join(map(str,new_arr))
-    print new_arr[0] # or return and print func.
+    print (new_arr[0]) # or return and print func.
 
 if __name__ == '__main__':
     print ('RPN expression has to be a string')
