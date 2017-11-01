@@ -6,8 +6,8 @@ def insertion(listik):
 			listik[j+1]=listik[j]
 			j -=1
 		listik[j+1] = key
-		
-listik = [1,93,3,4,9,5,10,12,11,13,109,913]
+
+listik = [9,6,8,7,1,3,2,4,5,0]
 insertion(listik)
 
 print listik
