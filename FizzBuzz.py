@@ -3,7 +3,7 @@ But for multiples of 3 print “Fizz” instead of the number and for the multip
 Also for number which are multiple of 3 and 5, prints “FizzBuzz”.
 """
 
-def fizzBuzz(self, A):
+def fizzBuzz(A):
     arr = []
     for i in range(1,A+1):
         if i % 3 == 0 and i % 5 == 0:
