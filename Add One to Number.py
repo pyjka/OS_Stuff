@@ -17,8 +17,9 @@ Edge cases:
 899
 999
 """
-
-def plusOne(self, A):
+import time
+# start = time.time()
+def plusOne(A):
 	# My naive solution
     a = ''
     B = []
@@ -30,3 +31,5 @@ def plusOne(self, A):
         for k in j:
             B.append(int(k))
     return A[0]
+
+print plusOne([9,9,9,9,99,999,9,9,9,99,9,9,9,9,9,9])
